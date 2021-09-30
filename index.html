@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title of the document</title>
+    <title>Hobbies & Interests</title>
   </head>
   <body>
-    <p>There is a 1st hidden message for you. Click to see it.</p>
-    <button onclick="myFunction()">Click me!</button>
+    <h1 align="center">My hobbies and personal interests</h1>
+    <button onclick="hobbies()">Click to check my hobbies!</button>
     <p id="demo"></p>
 
-    <p>There is a 2nd hidden message for you. Click to see it.</p>
-    <button onclick="myFunction2()">Click me!</button>
+  
+    <button onclick="personalInterest()">Click to check my personal interests</button>
     <p id="demo2"></p>
 
     <script>
-      function myFunction() {
-        document.getElementById("demo").innerHTML = "Hello Dear Visitor!</br> We are happy that you've chosen our website to learn programming languages. We're sure you'll become one of the best programmers in your country. Good luck to you!";
+      function hobbies() {
+        document.getElementById("demo").innerHTML = "Hello Dear Visitor!</br><ol><li>Cooking new dishes</li><li>Exploring new places</li><li>Watching crime series</li><li>Reading novels</li></ol>";
       }
     </script>
 
     <script>
-      function myFunction2() {
-        document.getElementById("demo2").innerHTML = "Hello Dear Visitor!</br> We are happy that you've chosen our website to learn programming languages. We're sure you'll 	become one of the best programmers in your country. Good luck to you!";
+      function personalInterest() {
+        document.getElementById("demo2").innerHTML = "Hello Dear Visitor!</br><ol><li>Intricate mehndi designs</li><li>Fine arts</li></ol>";
       }
     </script>
   </body>
